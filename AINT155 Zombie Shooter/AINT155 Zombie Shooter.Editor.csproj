@@ -350,6 +350,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="AINT155 Zombie Shooter.csproj">
+      <Project>{E5FF93F3-D4FE-B044-0F9C-95FFA064EAF0}</Project>
+      <Name>AINT155 Zombie Shooter</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="C:\Users\ljones30\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.standardevents@1.0.13\Editor\Importer.cs" />
   </ItemGroup>
   <ItemGroup>
