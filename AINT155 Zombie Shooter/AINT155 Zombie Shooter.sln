@@ -1,14 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AINT155 Zombie Shooter", "Assembly-CSharp.csproj", "{86A49F24-F33D-F869-1CAB-B2A55BB6C228}"
 =======
+=======
+>>>>>>> 258e69337020116368c44aa042a36b3236f50daf
 # Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AINT155 Zombie Shooter", "AINT155 Zombie Shooter.csproj", "{E5FF93F3-D4FE-B044-0F9C-95FFA064EAF0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AINT155 Zombie Shooter.Editor", "AINT155 Zombie Shooter.Editor.csproj", "{1CD90FCC-B3AC-D4C2-339E-D01CEBBABB6E}"
 >>>>>>> 258e69337020116368c44aa042a36b3236f50daf
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AINT155 Zombie Shooter.Editor", "AINT155 Zombie Shooter.Editor.csproj", "{1CD90FCC-B3AC-D4C2-339E-D01CEBBABB6E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AINT155 Zombie Shooter.Editor", "AINT155 Zombie Shooter.Editor.csproj", "{1CD90FCC-B3AC-D4C2-339E-D01CEBBABB6E}"
 EndProject
@@ -36,6 +41,9 @@ Global
 		{1CD90FCC-B3AC-D4C2-339E-D01CEBBABB6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CD90FCC-B3AC-D4C2-339E-D01CEBBABB6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CD90FCC-B3AC-D4C2-339E-D01CEBBABB6E}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
+>>>>>>> 258e69337020116368c44aa042a36b3236f50daf
+=======
 >>>>>>> 258e69337020116368c44aa042a36b3236f50daf
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
