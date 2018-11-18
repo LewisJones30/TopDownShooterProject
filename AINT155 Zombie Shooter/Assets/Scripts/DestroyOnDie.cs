@@ -17,6 +17,7 @@
  * 
  *******************************************************/
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 /*
@@ -40,5 +41,10 @@ public class DestroyOnDie : MonoBehaviour
          * see link: https://docs.unity3d.com/ScriptReference/Object.Destroy.html
          */
         Destroy(gameObject);
+        
+    }
+    public void PlayerDie()
+    {
+        SceneManager.LoadScene("Game Over");
     }
 }

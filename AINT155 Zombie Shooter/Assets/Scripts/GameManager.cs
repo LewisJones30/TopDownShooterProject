@@ -21,4 +21,8 @@ public class GameManager : MonoBehaviour {
     {
         Application.Quit();
     }
+    public void StartGameInstructions()
+    {
+        SceneManager.LoadScene("Game Instructions");
+    }
 }
