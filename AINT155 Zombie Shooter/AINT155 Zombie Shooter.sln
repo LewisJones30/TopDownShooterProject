@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AINT155 Zombie Shooter", "Assembly-CSharp.csproj", "{86A49F24-F33D-F869-1CAB-B2A55BB6C228}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AINT155 Zombie Shooter", "AstarPathfindingProject.csproj", "{9A427513-6CE8-80EE-255A-13D3B4526DE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AINT155 Zombie Shooter", "Assembly-CSharp.csproj", "{86A49F24-F33D-F869-1CAB-B2A55BB6C228}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AINT155 Zombie Shooter", "AstarPathfindingProjectEditor.csproj", "{F8F1CB94-6697-8E3D-54A1-29575E1E7EBE}"
 EndProject
@@ -15,14 +15,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{86A49F24-F33D-F869-1CAB-B2A55BB6C228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{86A49F24-F33D-F869-1CAB-B2A55BB6C228}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{86A49F24-F33D-F869-1CAB-B2A55BB6C228}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{86A49F24-F33D-F869-1CAB-B2A55BB6C228}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9A427513-6CE8-80EE-255A-13D3B4526DE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9A427513-6CE8-80EE-255A-13D3B4526DE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A427513-6CE8-80EE-255A-13D3B4526DE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A427513-6CE8-80EE-255A-13D3B4526DE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86A49F24-F33D-F869-1CAB-B2A55BB6C228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86A49F24-F33D-F869-1CAB-B2A55BB6C228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86A49F24-F33D-F869-1CAB-B2A55BB6C228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86A49F24-F33D-F869-1CAB-B2A55BB6C228}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F8F1CB94-6697-8E3D-54A1-29575E1E7EBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F8F1CB94-6697-8E3D-54A1-29575E1E7EBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8F1CB94-6697-8E3D-54A1-29575E1E7EBE}.Release|Any CPU.ActiveCfg = Release|Any CPU

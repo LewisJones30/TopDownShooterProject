@@ -17,4 +17,8 @@ public class GameManager : MonoBehaviour {
     {
         SceneManager.LoadScene("Main Menu");
     }
+    public void QuitGame() // Quits the application when button is pressed.
+    {
+        Application.Quit();
+    }
 }
