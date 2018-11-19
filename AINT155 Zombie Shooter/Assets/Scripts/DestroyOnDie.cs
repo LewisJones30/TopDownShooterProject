@@ -18,6 +18,8 @@
  *******************************************************/
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
 
 
 /*
@@ -26,7 +28,6 @@ using UnityEngine.SceneManagement;
  */
 public class DestroyOnDie : MonoBehaviour
 {
-
     /*
      * Die
      * We call the Destroy method to remove our bullet GameObject from the scene
@@ -44,6 +45,10 @@ public class DestroyOnDie : MonoBehaviour
         
     }
     public void PlayerDie()
+    {
+        SceneManager.LoadScene("Game Over");
+    }
+    public void SpawnerDie()
     {
         SceneManager.LoadScene("Game Over");
     }
