@@ -156,6 +156,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: OnDamagedEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
+  animator: {fileID: 0}
 --- !u!114 &114275717828138722
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -222,6 +223,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87bb69914243d154d8eb4a558755b5b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerScore: 0
+  SpawnerCount: 0
+  SpawnersTextL1: {fileID: 0}
 --- !u!114 &114602639954443458
 MonoBehaviour:
   m_ObjectHideFlags: 1

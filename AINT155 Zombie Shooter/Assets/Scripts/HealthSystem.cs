@@ -10,6 +10,7 @@ public class HealthSystem : MonoBehaviour
     public int health = 10;
     public UnityEvent onDie;
     public OnDamagedEvent onDamaged;
+    public Animation animator;
 
     public void TakeDamage (int damage)
     {

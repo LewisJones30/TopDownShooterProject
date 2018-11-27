@@ -19,6 +19,8 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using System.IO;
+
 
 
 
@@ -28,6 +30,13 @@ using UnityEngine.UI;
  */
 public class DestroyOnDie : MonoBehaviour
 {
+    public int playerScore = 0;
+    public delegate void SendScore(int theScore);
+    public int SpawnerCount = 0;
+    public Text SpawnersTextL1;
+    public int HealthSpawnCounter = 10;
+    public int Rollednumber = 0;
+    public GameObject prefab = null;
     /*
      * Die
      * We call the Destroy method to remove our bullet GameObject from the scene
@@ -44,12 +53,40 @@ public class DestroyOnDie : MonoBehaviour
         Destroy(gameObject);
         
     }
-    public void PlayerDie()
-    {
-        SceneManager.LoadScene("Game Over");
-    }
     public void SpawnerDie()
     {
+        SpawnerCount = SpawnerCount + 1;
+        print(SpawnerCount);
+        if (SpawnerCount == 3)
+        {
+            SceneManager.LoadScene("Game Over");
+        }
+        else
+        {
+            Destroy(gameObject);
+            //Objective Text
+            SpawnersTextL1.text = "your objective: \n Destroy all the spawners: " + SpawnerCount.ToString() + "/3";
+
+        }
+    }
+    public void Spawn()
+    {
+        Rollednumber = Random.Range(10, 10);
+        print("Number Rolled: " + Rollednumber);
+        if (Rollednumber == HealthSpawnCounter)
+        {
+            Instantiate(this.prefab, this.transform.position, Quaternion.identity);
+        }
+    }
+    public void PlayerDie()
+    {
+        print("game over");
         SceneManager.LoadScene("Game Over");
+        //playerScore = theScore;
+        //StreamWriter highScores = new StreamWriter("Highscores.txt");
+        //highScores.WriteLine(playerScore);
+        //highScores.Close();
+        
+
     }
 }
