@@ -41,7 +41,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1743766902209640}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.37, y: -4.87, z: -0.17578125}
+  m_LocalPosition: {x: -19.426693, y: -9.543238, z: -0.17578125}
   m_LocalScale: {x: 3.551998, y: 3.5087442, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -91,7 +91,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c09d1b7c9841b0e4b8840cb9987588fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 10
+  time: 20
   repeat: 1
   onTimerComplete:
     m_PersistentCalls:
@@ -122,7 +122,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerScore: 0
   SpawnerCount: 0
-  SpawnersTextL1: {fileID: 0}
   HealthSpawnCounter: 10
   Rollednumber: 0
   prefab: {fileID: 0}
@@ -151,7 +150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38dc8fda2a399c44abbdc9fea439d19b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
+  health: 2147483647
   onDie:
     m_PersistentCalls:
       m_Calls:
@@ -207,7 +206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e10fd4025b48b844783c8c33b0d2ff0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 1000
+  score: 0
 --- !u!212 &212467774591232968
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -242,7 +241,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300068, guid: 8d18f6d2b73e89b4882fbf3bb5aedb4b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

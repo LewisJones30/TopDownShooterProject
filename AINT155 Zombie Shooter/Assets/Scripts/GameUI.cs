@@ -50,6 +50,7 @@ public class GameUI : MonoBehaviour {
         if (GameOverScoreText != null)
         {
             GameOverScoreText.text = "YOUR FINAL SCORE: " + playerScore.ToString();
+            GameScore.Score = 0;//Reset the player's score for when/if they play again.
         }
     }
 	

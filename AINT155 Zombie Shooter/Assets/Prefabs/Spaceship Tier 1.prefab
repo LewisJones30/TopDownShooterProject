@@ -225,7 +225,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerScore: 0
   SpawnerCount: 0
-  SpawnersTextL1: {fileID: 0}
   HealthSpawnCounter: 10
   Rollednumber: 0
   prefab: {fileID: 0}
@@ -344,7 +343,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1838129155
   m_SortingLayer: 3
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300102, guid: 25f95872ce8cc8e4b9e837a72c0d4160, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
