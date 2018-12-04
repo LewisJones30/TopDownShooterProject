@@ -33,7 +33,6 @@ public class DestroyOnDie : MonoBehaviour
     public int playerScore = 0;
     public delegate void SendScore(int theScore);
     public int SpawnerCount = 0;
-    public Text SpawnersTextL1;
     public int HealthSpawnCounter = 10;
     public int Rollednumber = 0;
     public GameObject prefab = null;
@@ -55,23 +54,12 @@ public class DestroyOnDie : MonoBehaviour
     }
     public void SpawnerDie()
     {
-        SpawnerCount = SpawnerCount + 1;
-        print(SpawnerCount);
-        if (SpawnerCount == 3)
-        {
-            SceneManager.LoadScene("Game Over");
-        }
-        else
-        {
-            Destroy(gameObject);
-            //Objective Text
-            SpawnersTextL1.text = "your objective: \n Destroy all the spawners: " + SpawnerCount.ToString() + "/3";
-
-        }
+        FindObjectOfType<Objective>().SpawnerDestroyed(); //Updates the Objective script as a spawner has been destroyed.
+        Destroy(gameObject);
     }
     public void Spawn()
     {
-        Rollednumber = Random.Range(10, 10);
+        Rollednumber = Random.Range(1, 10);
         print("Number Rolled: " + Rollednumber);
         if (Rollednumber == HealthSpawnCounter)
         {
@@ -82,11 +70,12 @@ public class DestroyOnDie : MonoBehaviour
     {
         print("game over");
         SceneManager.LoadScene("Game Over");
-        //playerScore = theScore;
-        //StreamWriter highScores = new StreamWriter("Highscores.txt");
-        //highScores.WriteLine(playerScore);
-        //highScores.Close();
         
 
+    }
+    public void BossDie()
+    {
+        Destroy(gameObject);
+        SceneManager.LoadScene("Game Over");
     }
 }

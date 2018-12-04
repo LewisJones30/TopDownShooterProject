@@ -543,6 +543,7 @@ GameObject:
   - component: {fileID: 680248069}
   - component: {fileID: 680248068}
   - component: {fileID: 680248072}
+  - component: {fileID: 680248073}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -654,6 +655,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &680248073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 680248067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc2afa6f5eb8c1e48bdb8f702d484dd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthBar: {fileID: 0}
+  scoreText: {fileID: 0}
+  HealthText: {fileID: 0}
+  GameOverScoreText: {fileID: 2057586061}
+  playerScore: 0
 --- !u!1 &710884488
 GameObject:
   m_ObjectHideFlags: 0
@@ -1442,7 +1459,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -117, y: 216}
+  m_AnchoredPosition: {x: -161.6, y: 217}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2057586061
@@ -1477,7 +1494,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Your score: ---'
+  m_Text: 'Your final score: 0'
 --- !u!222 &2057586062
 CanvasRenderer:
   m_ObjectHideFlags: 0

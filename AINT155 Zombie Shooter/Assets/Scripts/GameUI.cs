@@ -7,7 +7,7 @@ using System.IO;
 public class GameUI : MonoBehaviour {
 
     public Slider healthBar;
-    public Text scoreText, HealthText;
+    public Text scoreText, HealthText, GameOverScoreText;
 
     public int playerScore = 0;
 
@@ -31,14 +31,26 @@ public class GameUI : MonoBehaviour {
     private void UpdateScore (int theScore)
     {
         playerScore += theScore;
-        scoreText.text = "CURRENT SCORE: " + playerScore.ToString();
+        GameScore.Score = playerScore;
+        print(GameScore.Score);
 
+        scoreText.text = "CURRENT SCORE: " + playerScore.ToString();
+ 
     }
     private void UpdateHighScore (int theScore)
     {
     }
     // Use this for initialization
     void Start () {
+        playerScore = GameScore.Score;
+        if (scoreText != null)
+        {
+            scoreText.text = "CURRENT SCORE: " + playerScore.ToString();
+        }
+        if (GameOverScoreText != null)
+        {
+            GameOverScoreText.text = "YOUR FINAL SCORE: " + playerScore.ToString();
+        }
     }
 	
 	// Update is called once per frame
