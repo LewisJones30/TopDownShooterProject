@@ -3046,7 +3046,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'your objective:
 
-    destroy all the spawners: 0/4'
+    destroy all the spawners: 0/3'
 --- !u!222 &897868040
 CanvasRenderer:
   m_ObjectHideFlags: 0
