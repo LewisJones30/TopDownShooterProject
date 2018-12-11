@@ -2567,9 +2567,40 @@ Prefab:
       propertyPath: theCamera
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 114423399647294142, guid: 77be8f7844355074a8db459825878cfa,
+        type: 2}
+      propertyPath: onDie.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 401235575}
+    - target: {fileID: 114423399647294142, guid: 77be8f7844355074a8db459825878cfa,
+        type: 2}
+      propertyPath: onDie.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: EndGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 114423399647294142, guid: 77be8f7844355074a8db459825878cfa,
+        type: 2}
+      propertyPath: onDie.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 77be8f7844355074a8db459825878cfa, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &401235574 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1054403345523764, guid: 77be8f7844355074a8db459825878cfa,
+    type: 2}
+  m_PrefabInternal: {fileID: 401235573}
+--- !u!114 &401235575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 401235574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 253a01186a6eed249aee901eefcba3f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &425552106
 GameObject:
   m_ObjectHideFlags: 0
