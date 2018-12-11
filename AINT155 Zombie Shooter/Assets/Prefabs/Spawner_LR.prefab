@@ -53,7 +53,7 @@ CircleCollider2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1743766902209640}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a601849e7709664293122c8a9bd1ff8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabToSpawn: {fileID: 1646972078081980, guid: fac264726e59468448df27cd800a8b5c,
+  prefabToSpawn: {fileID: 1068845231288146, guid: fb4ea91ac2778ea40bba2a930969cc2c,
     type: 2}
   adjustmentAngle: 0
 --- !u!114 &114767143374514428
