@@ -76,6 +76,6 @@ public class DestroyOnDie : MonoBehaviour
     public void BossDie()
     {
         Destroy(gameObject);
-        SceneManager.LoadScene("Game Over");
+        SceneManager.LoadScene("Victory Screen");
     }
 }
