@@ -17,7 +17,6 @@ public class AddScore : MonoBehaviour {
                 scoreSent = true;
                 OnSendScore(score);
             }
-            OnSendScore(score);
         }
     }
 

@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 125581993}
   - component: {fileID: 125581992}
   m_Layer: 5
-  m_Name: TextHighScores
+  m_Name: High Scores
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -464,6 +464,7 @@ GameObject:
   - component: {fileID: 680248069}
   - component: {fileID: 680248068}
   - component: {fileID: 680248072}
+  - component: {fileID: 680248073}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -569,6 +570,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &680248073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 680248067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b1f50f988d851f4b845e646efd1f8cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highScoreText: {fileID: 125581992}
+  highScore:
+    scores: 
 --- !u!1 &921467162
 GameObject:
   m_ObjectHideFlags: 0

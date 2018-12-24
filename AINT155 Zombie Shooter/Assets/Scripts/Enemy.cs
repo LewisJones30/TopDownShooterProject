@@ -8,7 +8,7 @@ public class Enemy : MonoBehaviour {
     public EnemySpawnedEvent onSpawn;
     private void Start()
     {
-        GameObject player = GameObject.FindWithTag("Player");
+        GameObject player = GameObject.FindWithTag("PlayerControl");
         onSpawn.Invoke(player.transform);
     }
 }
