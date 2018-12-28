@@ -3119,6 +3119,11 @@ Prefab:
       propertyPath: m_TagString
       value: PlayerControl
       objectReference: {fileID: 0}
+    - target: {fileID: 58635363330937650, guid: 77be8f7844355074a8db459825878cfa,
+        type: 2}
+      propertyPath: m_Radius
+      value: 0.3226411
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 77be8f7844355074a8db459825878cfa, type: 2}
   m_IsPrefabParent: 0

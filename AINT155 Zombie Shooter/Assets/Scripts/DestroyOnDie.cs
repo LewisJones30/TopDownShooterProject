@@ -57,6 +57,11 @@ public class DestroyOnDie : MonoBehaviour
         FindObjectOfType<Objective>().SpawnerDestroyed(); //Updates the Objective script as a spawner has been destroyed.
         Destroy(gameObject);
     }
+    public void Level2SpawnerDie()
+    {
+        FindObjectOfType<Objective>().Level2Objective();
+        Destroy(gameObject);
+    }
     public void Spawn()
     {
         Rollednumber = Random.Range(1, 10);

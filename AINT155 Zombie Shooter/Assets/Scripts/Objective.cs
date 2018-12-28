@@ -17,6 +17,18 @@ public class Objective : MonoBehaviour {
         if (Count >= SpawnersToKill)
         {
             SceneManager.LoadScene("Zombie Shooter Level 2"); //temporary, will load to next level at this point.
+            Count = 0; //Reset the counter for the next level.
+            SpawnersToKill = 5;
+        }
+    }
+    public void Level2Objective()
+    {
+        Count++;
+        print(Count);
+        ObjectiveText.text = "Your Objective: \n Destroy all of the spawners: " + Count.ToString() +  "/" + SpawnersToKill.ToString();
+        if (Count >= SpawnersToKill)
+        {
+            SceneManager.LoadScene("Zombie Shooter Level 2");
 
         }
     }

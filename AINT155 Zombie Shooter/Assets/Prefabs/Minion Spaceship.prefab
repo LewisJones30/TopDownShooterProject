@@ -31,7 +31,7 @@ GameObject:
   - component: {fileID: 114904452521680784}
   - component: {fileID: 114332968529259240}
   - component: {fileID: 50260040181688662}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Minion Spaceship
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48,7 +48,7 @@ GameObject:
   - component: {fileID: 4171092429913114}
   - component: {fileID: 114390615298013638}
   - component: {fileID: 58533422728920476}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hurt Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -253,7 +253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54fad7fd4caeb9843a0f9c5dd56e3e64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 4208701651671166, guid: 77be8f7844355074a8db459825878cfa, type: 2}
 --- !u!114 &114645355759831554
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -272,7 +272,8 @@ MonoBehaviour:
         m_MethodName: SetTarget
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 4208701651671166, guid: 77be8f7844355074a8db459825878cfa,
+            type: 2}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -375,7 +376,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300124, guid: 25f95872ce8cc8e4b9e837a72c0d4160, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
