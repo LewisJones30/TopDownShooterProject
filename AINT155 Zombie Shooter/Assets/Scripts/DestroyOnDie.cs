@@ -59,7 +59,7 @@ public class DestroyOnDie : MonoBehaviour
     }
     public void Level2SpawnerDie()
     {
-        FindObjectOfType<Objective>().Level2Objective();
+        FindObjectOfType<Objective>().Level2Objective(); //Updates the level 2 objective
         Destroy(gameObject);
     }
     public void Spawn()
@@ -82,5 +82,9 @@ public class DestroyOnDie : MonoBehaviour
     {
         Destroy(gameObject);
         SceneManager.LoadScene("Victory Screen");
+    }
+    public void Injured()
+    {
+        GetComponent<Animation>().Play(); //Although not destroyed, the boss will flash with this code.
     }
 }
