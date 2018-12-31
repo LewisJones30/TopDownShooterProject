@@ -54,13 +54,9 @@ public class DestroyOnDie : MonoBehaviour
     }
     public void SpawnerDie()
     {
+        Destroy(gameObject);
         FindObjectOfType<Objective>().SpawnerDestroyed(); //Updates the Objective script as a spawner has been destroyed.
-        Destroy(gameObject);
-    }
-    public void Level2SpawnerDie()
-    {
-        FindObjectOfType<Objective>().Level2Objective(); //Updates the level 2 objective
-        Destroy(gameObject);
+
     }
     public void Spawn()
     {
@@ -85,6 +81,11 @@ public class DestroyOnDie : MonoBehaviour
     }
     public void Injured()
     {
-        GetComponent<Animation>().Play(); //Although not destroyed, the boss will flash with this code.
+        if (GetComponent<Animation>() != null) //Check if there is an animation present
+        {
+            //Plays the animation if present.
+            GetComponent<Animation>().Play(); //Although not destroyed, the enemies will flash with this code.
+        }  
+        
     }
 }

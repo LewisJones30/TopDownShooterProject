@@ -7,7 +7,11 @@ public class GameManager : MonoBehaviour {
 
     public void StartGame()
     {
-        SceneManager.LoadScene("Zombie Shooter Level 1");
+        SceneManager.LoadScene("Level1");
+    }
+    public void BossInstructions()
+    {
+        SceneManager.LoadScene("Boss Instructions");
     }
     public void EndGame()
     {
@@ -24,5 +28,13 @@ public class GameManager : MonoBehaviour {
     public void StartGameInstructions()
     {
         SceneManager.LoadScene("Game Instructions");
+    }
+    public void Level3Load()
+    {
+        SceneManager.LoadScene("FinalLevel");
+    }
+    public void Level2Load()
+    {
+        SceneManager.LoadScene("Level2");
     }
 }

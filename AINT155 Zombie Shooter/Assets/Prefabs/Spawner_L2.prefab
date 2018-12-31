@@ -27,7 +27,7 @@ GameObject:
   - component: {fileID: 58057861988165500}
   - component: {fileID: 95783945572203106}
   - component: {fileID: 114335852682369772}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Spawner_L2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1743766902209640}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -19.426693, y: -9.543238, z: -0.17578125}
+  m_LocalPosition: {x: 4.8, y: -5.22, z: -0.17578125}
   m_LocalScale: {x: 3.551998, y: 3.5087442, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

@@ -12,11 +12,17 @@ EditorBuildSettings:
     path: Assets/Scenes/Game Instructions.unity
     guid: 8020f7b79dc02e646aee5a2edb9c4d63
   - enabled: 1
-    path: Assets/Scenes/Zombie Shooter Level 1.unity
-    guid: ce73a9d872cce94439c847c0042bc550
+    path: Assets/Scenes/Level1.unity
+    guid: 55102f289cbdeb2429c98bc45a6864d2
   - enabled: 1
-    path: Assets/Scenes/Zombie Shooter Level 2.unity
-    guid: 7b54e51d16575ec49b9d030f86060ee8
+    path: Assets/Scenes/Level2.unity
+    guid: 45199194494b9e6468c53a95946f0489
+  - enabled: 1
+    path: Assets/Scenes/Boss Instructions.unity
+    guid: 8113d85f5fc046f47bc948b755d19d68
+  - enabled: 1
+    path: Assets/Scenes/FinalLevel.unity
+    guid: 609a26c80a563e1429db6c4102933475
   - enabled: 1
     path: Assets/Scenes/Victory Screen.unity
     guid: eeea2c31644854944bf4e9ff90a08a31

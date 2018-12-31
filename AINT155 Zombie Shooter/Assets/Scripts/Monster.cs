@@ -12,7 +12,7 @@ public class Monster : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		fireRate = 1f;
+		fireRate = 0.75f;
 		nextFire = Time.time;
 	}
 	
