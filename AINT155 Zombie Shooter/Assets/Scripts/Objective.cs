@@ -21,7 +21,7 @@ public class Objective : MonoBehaviour {
             {
                 SceneManager.LoadScene("Level2"); //temporary, will load to next level at this point.
                 Count = 0; //Reset the counter for the next level.
-                SpawnersToKill = 6;
+                SpawnersToKill = 5; //Level 2 has five spawners to be defeated.
             }
             else if (SceneManager.GetActiveScene().name == "Level2")
             {
