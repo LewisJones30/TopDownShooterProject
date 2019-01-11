@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4023519108013542}
   - component: {fileID: 114143539196337734}
   - component: {fileID: 58883796471932300}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Hurt Trigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   - component: {fileID: 50070328156497800}
   - component: {fileID: 58693129409234448}
   - component: {fileID: 114235030114404280}
-  m_Layer: 13
+  m_Layer: 11
   m_Name: EnemyBullet 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}

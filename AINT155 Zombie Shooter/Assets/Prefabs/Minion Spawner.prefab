@@ -84,7 +84,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a601849e7709664293122c8a9bd1ff8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabToSpawn: {fileID: 1460093435440574, guid: fb55872c90803494b821d621cef36951,
+  prefabToSpawn: {fileID: 1646972078081980, guid: 609c4783458e7254a8d5afcb56c460d1,
     type: 2}
   adjustmentAngle: 0
 --- !u!114 &114525491150275964

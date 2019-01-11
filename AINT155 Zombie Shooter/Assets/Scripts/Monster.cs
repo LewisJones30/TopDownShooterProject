@@ -6,13 +6,13 @@ public class Monster : MonoBehaviour {
 
 	[SerializeField]
 	GameObject bullet;
-
-	float fireRate;
+    float fireRate;
+    public float setFireRate; //User determines the firerate here.
 	float nextFire;
 
 	// Use this for initialization
 	void Start () {
-		fireRate = 0.75f;
+        fireRate = setFireRate;
 		nextFire = Time.time;
 	}
 	
@@ -24,7 +24,7 @@ public class Monster : MonoBehaviour {
 	void CheckIfTimeToFire()
 	{
 		if (Time.time > nextFire) {
-			Instantiate (bullet, transform.position, Quaternion.identity);
+			Instantiate (bullet, transform.position, transform.rotation);
 			nextFire = Time.time + fireRate;
 		}
 		

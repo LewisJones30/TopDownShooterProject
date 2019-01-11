@@ -24,7 +24,9 @@ GameObject:
   - component: {fileID: 114623317585485326}
   - component: {fileID: 114028702649348548}
   - component: {fileID: 58956437601045908}
-  m_Layer: 0
+  - component: {fileID: 111199665783030110}
+  - component: {fileID: 114756677612543290}
+  m_Layer: 9
   m_Name: Malum of the Black Stars
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,7 +40,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1693977509138340}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.66, y: 13.32, z: 0}
+  m_LocalPosition: {x: -0.94, y: 7.24, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -59,6 +61,21 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 1.5
+--- !u!111 &111199665783030110
+Animation:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1693977509138340}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 4eaae7dc1acb90b4486995bafda3436c, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 4eaae7dc1acb90b4486995bafda3436c, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!114 &114028702649348548
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -86,7 +103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38dc8fda2a399c44abbdc9fea439d19b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1000
+  health: 500
   onDie:
     m_PersistentCalls:
       m_Calls:
@@ -105,7 +122,18 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
   onDamaged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 114028702649348548}
+        m_MethodName: Injured
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: OnDamagedEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
   animator: {fileID: 0}
@@ -121,6 +149,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 25000
+--- !u!114 &114756677612543290
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1693977509138340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 014405f80c073fc41a03fbbc52e8653d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 1629506149625894, guid: a34822f152c2d874384a3a9c0659504b, type: 2}
+  setFireRate: 0.75
 --- !u!212 &212938264626419310
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -155,7 +196,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300134, guid: 25f95872ce8cc8e4b9e837a72c0d4160, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
