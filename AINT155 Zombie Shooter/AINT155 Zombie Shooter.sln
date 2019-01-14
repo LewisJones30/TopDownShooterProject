@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AINT155 Zombie Shooter", "A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AINT155 Zombie Shooter", "PackageToolsEditor.csproj", "{AB74FB56-7E7C-685C-8007-8A859C4154FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstarPathfindingProject.Player", "AstarPathfindingProject.Player.csproj", "{CBBDCC6E-7A4E-56F6-BD95-F294738AB448}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp.Player", "Assembly-CSharp.Player.csproj", "{37CDCF3F-0389-B63F-5625-A1C74B87B5B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +35,14 @@ Global
 		{AB74FB56-7E7C-685C-8007-8A859C4154FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB74FB56-7E7C-685C-8007-8A859C4154FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB74FB56-7E7C-685C-8007-8A859C4154FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBBDCC6E-7A4E-56F6-BD95-F294738AB448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBBDCC6E-7A4E-56F6-BD95-F294738AB448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBBDCC6E-7A4E-56F6-BD95-F294738AB448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBBDCC6E-7A4E-56F6-BD95-F294738AB448}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37CDCF3F-0389-B63F-5625-A1C74B87B5B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37CDCF3F-0389-B63F-5625-A1C74B87B5B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37CDCF3F-0389-B63F-5625-A1C74B87B5B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37CDCF3F-0389-B63F-5625-A1C74B87B5B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
